@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  	<classes>
+		<class name="leaftap.testCases.TC001_LoginLogout"/>
+		<class name="leaftap.testCases.TC002_CreateLead"/>
+		<class name="leaftap.testCases.TC003_EditLead"/>
+		<class name="leaftap.testCases.TC004_DeleteLead"/>
+		<class name="leaftap.testCases.TC005_DuplicateLead"/>
+		<class name="leaftap.testCases.TC006_MergeLead"/>
+  	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
